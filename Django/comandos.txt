@@ -1,0 +1,13 @@
+
+
+
+# solo aplicar una vez este comando ("solo para crear proyecto base MVP")
+django-admin startproject {nombre}
+
+
+# para crear tu primera App
+python manage.py startapp {nombreApp}
+
+
+# para ejecutar el proyecto en local (servidor local)
+python manage.py runserver
